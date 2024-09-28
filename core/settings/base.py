@@ -27,10 +27,13 @@ INSTALLED_APPS = [
 
 # Add External Apps Here
 EXTERNAL_APPS = [
-    # "users.apps.UsersConfig",  # Example - Need to Remove
+    "accounts.apps.AccountsConfig",  # Example - Need to Remove
 ]
 
 INSTALLED_APPS += EXTERNAL_APPS
+
+LOGIN_REDIRECT_URL = "home"
+LOGOUT_REDIRECT_URL = "home"
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
