@@ -156,3 +156,5 @@ LOGGING = {
         "level": "WARNING",
     },
 }
+
+TEST_RUNNER = "accounts.tests.CustomTestRunner"
