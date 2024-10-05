@@ -44,3 +44,9 @@ jobs:
           # See https://github.com/facebook/pyre-action#inputs
           repo-directory: './'
           requirements-path: 'requirements.txt'
+          
+      - name: Upload Pyre logs
+        uses: actions/upload-artifact@v3
+        with:
+          name: pyre-logs
+          path: ./pyre_analysis.log
