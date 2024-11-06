@@ -54,19 +54,10 @@ Now that you have a virtual environment set up, you can install Django and other
 pip install -r requirements.txt
 ```
 
-**Setting up mysql database server**
-
-1. Download and install xampp for windows
-2. Run the apache and mysql services
-3. Open the admin panel for mysql
-4. Create a data base named  ***pulse_flow***
-5. Import the sql file to the database
-
 **Running the project in your local system**
 
 Before running ensure that the :
 1. Virtual Environment is activated
-2. Mysql is up and running
 
 Run Migrations
 
