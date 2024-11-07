@@ -54,6 +54,15 @@ Now that you have a virtual environment set up, you can install Django and other
 pip install -r requirements.txt
 ```
 
+**Copy the env file**
+
+You will need to create a copy of the .env.example file with the name .env
+
+```bash
+cp .env.example .env
+```
+This will create a copy of the env file and then you can edit the contents of this file
+
 **Running the project in your local system**
 
 Before running ensure that the :
