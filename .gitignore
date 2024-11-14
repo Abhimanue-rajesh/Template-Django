@@ -164,6 +164,3 @@ cython_debug/
 
 # Static Files
 assets
-
-# Database Files
-db.sqlite3
