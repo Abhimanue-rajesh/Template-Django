@@ -105,6 +105,23 @@ pre-commit run --all-files
 ```bash
 pre-commit clean
 ```
+## Dockerization
+- Run Docker Init
+```bash
+docker init
+```
+- this will create all the required files for dockerization
+- Run the build command
+```bash
+docker build -tag django-template:latest .
+```
+- Change the tag name to the desired name
+- This will create an image for the application
+
+- To run the image
+```bash
+docker run --env-files .env --name django-template -d -p 8000:8000 django-template:latest
+```
 
 ## Run Test
 
